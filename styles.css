@@ -1,0 +1,119 @@
+body { 
+    font-family: 'Roboto Mono', monospace; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    margin: 0; 
+    background-color: #000000; 
+    color: #ffffff; 
+    font-size: 24px; 
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+}
+#foot {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #111111; 
+    padding: 10px 0; 
+}
+#paragraph { 
+    margin-bottom: 20px; 
+    text-align: center; 
+    max-width: 100%; 
+    color: #ffffff; 
+}
+.correct { color: #888888; } 
+#input { 
+    width: 100%; 
+    padding: 10px; 
+    font-size: 24px; 
+    margin-bottom: 20px; 
+    background-color: #000000; 
+    color: #ffffff; 
+    border: 1px solid #888888; 
+}
+#timer, #wpm, #accuracy { 
+    font-size: 24px; 
+    margin-bottom: 10px; 
+    color: #888888; 
+}
+.button, #timeSelect { 
+    padding: 10px 20px; 
+    font-size: 24px; 
+    background-color: #000000; 
+    color: #888888; 
+    border: 1px solid #888888; 
+    cursor: pointer; 
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.button:hover, #timeSelect:hover {
+    background-color: #444444;
+    color: #ffffff;
+}
+#header {
+    position: absolute;
+    top: 20px;
+    left: 10%; 
+    display: flex;
+    align-items: baseline; 
+}
+#title {
+    font-size: 32px;
+    color: #1bf0ff;
+    margin-right: 10px; 
+}
+#version {
+    font-size: 14px;
+    color: #888;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.8); 
+}
+.modal-content {
+    background-color: #000000;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    max-width: 300px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #888888;
+    border-radius: 10px;
+}
+.close {
+    color: #888888;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+ 
