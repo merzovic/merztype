@@ -6,6 +6,7 @@
     <title>merztype</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image" href="icon.png">
 </head>
 <body>
     <div id="header">
